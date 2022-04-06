@@ -26,7 +26,6 @@ function ensureQuestion(s) {
 ```
 
 <br>
-<hr>
 
 **2. Reversed Words**
 
@@ -49,6 +48,8 @@ function reverseWords(str) {
 ```
 
 <br>
+<br>
+<hr>
 <hr>
 
 ## Wednesday
