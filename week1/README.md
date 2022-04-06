@@ -6,7 +6,7 @@
 
 ###### Solution
 
-```
+```javascript
 function ensureQuestion(s) {
    if(s.substr(-1) == '?') return s;
 
@@ -18,7 +18,7 @@ function ensureQuestion(s) {
 
 ###### Solution
 
-```
+```javascript
 function reverseWords(str){
   return str.split(' ').reverse().join(' ');
 }
