@@ -1,6 +1,6 @@
 ## Week 1
 
-##### Tuesday
+### Tuesday
 
 ###### challenge 1 => [kata](https://www.codewars.com/kata/5866fc43395d9138a7000006 "Kata")
 
@@ -8,9 +8,9 @@
 
 ```javascript
 function ensureQuestion(s) {
-   if(s.substr(-1) == '?') return s;
+  if (s.substr(-1) == "?") return s;
 
-  return s.concat('?');
+  return s.concat("?");
 }
 ```
 
@@ -19,7 +19,7 @@ function ensureQuestion(s) {
 ###### Solution
 
 ```javascript
-function reverseWords(str){
-  return str.split(' ').reverse().join(' ');
+function reverseWords(str) {
+  return str.split(" ").reverse().join(" ");
 }
 ```
