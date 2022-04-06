@@ -2,7 +2,7 @@
 
 ### Tuesday
 
-###### challenge 1 => [kata](https://www.codewars.com/kata/5866fc43395d9138a7000006 "Kata")
+###### challenge 1 => [go to it!](https://www.codewars.com/kata/5866fc43395d9138a7000006 "Kata")
 
 ###### Solution
 
@@ -14,7 +14,7 @@ function ensureQuestion(s) {
 }
 ```
 
-###### challenge 2 => [kata](https://www.codewars.com/kata/51c8991dee245d7ddf00000e "Kata")
+###### challenge 2 => [go to it!](https://www.codewars.com/kata/51c8991dee245d7ddf00000e "Kata")
 
 ###### Solution
 
