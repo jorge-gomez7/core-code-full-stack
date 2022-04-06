@@ -47,3 +47,30 @@ function reverseWords(str) {
   return str.split(" ").reverse().join(" ");
 }
 ```
+
+<br>
+<hr>
+
+## Wednesday
+
+Given an array of integers your solution should find the smallest integer. You can assume, for the purpose of this kata, that the supplied array
+will not be empty.
+
+**Example:**
+
+```
+Given [34, 15, 88, 2] your solution will return 2
+Given [34, -345, -1, 100] your solution will return -345
+```
+
+###### challenge 1 => [go to it!](https://www.codewars.com/kata/55a2d7ebe362935a210000b2 "Kata")
+
+###### Solution
+
+```javascript
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return args.sort((a, b) => a - b)[0];
+  }
+}
+```
