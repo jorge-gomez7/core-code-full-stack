@@ -24,3 +24,30 @@ function isPalindrome(line) {
   return line.toString().split("").reverse().join("") == line;
 }
 ```
+
+<br>
+<hr>
+
+## Tuesday
+
+**1. Well of ideas**
+
+For every good kata idea there seem to be quite a few bad ones!
+
+In this kata you need to check the provided array (x) for good ideas 'good' and bad ideas 'bad'. If there are one or two good ideas, return 'Publish!', if there are more than 2 return 'I smell a series!'. If there are no good ideas, as is often the case, return 'Fail!'.
+
+###### challenge 1 => [go to it!](https://www.codewars.com/kata/57f222ce69e09c3630000212 "Kata")
+
+###### Solution
+
+```javascript
+function well(x) {
+  const res = [];
+  const ext = x.map((el, i) => {
+    if (el == "good") res.push(el);
+  });
+  if (res.length > 2) return "I smell a series!";
+  if (res.length == 1 || res.length == 2) return "Publish!";
+  if (res.length == 0) return "Fail!";
+}
+```
